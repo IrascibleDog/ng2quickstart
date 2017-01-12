@@ -1,7 +1,6 @@
 {
   "name": "angular-quickstart",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "angular-cli": {},
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
@@ -50,9 +49,12 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~4.0.14",
     "rimraf": "^2.5.4",
+    "gulp": "3.9.1",
 
     "@types/node": "^6.0.46",
-    "@types/jasmine": "^2.5.36"
+    "@types/jasmine": "^2.5.36",
+    "gulp-sourcemaps": "2.3.1",
+    "del": "2.2.2"
   },
   "repository": {}
 }
